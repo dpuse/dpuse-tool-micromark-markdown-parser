@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.14.0",
-    "generatedAt": "2026-08-20T12:12:49.011Z",
+    "generatedAt": "2026-09-22T10:11:46.358Z",
     "integration": "vite",
     "sources": false,
     "gzip": false,
@@ -23,7 +23,7 @@
       "format": "other",
       "uncompressed": 8640,
       "gzip": 0,
-      "brotli": 665,
+      "brotli": 666,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -71,10 +71,10 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 188,
+      "uncompressed": 194,
       "gzip": 0,
-      "brotli": 87,
-      "parent": "dist/css-BnMjXUr8.js"
+      "brotli": 80,
+      "parent": "dist/css-zcoqwlxa.js"
     },
     {
       "kind": "chunk",
@@ -103,8 +103,8 @@
       "format": "other",
       "uncompressed": 405,
       "gzip": 0,
-      "brotli": 144,
-      "parent": "dist/dist-DRv2xTzQ.js"
+      "brotli": 146,
+      "parent": "dist/dist-BdH_EUdu.js"
     },
     {
       "kind": "chunk",
@@ -161,10 +161,10 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 367,
+      "uncompressed": 389,
       "gzip": 0,
-      "brotli": 96,
-      "parent": "dist/html-BfuFQfc8.js"
+      "brotli": 88,
+      "parent": "dist/html-DMgKiosp.js"
     },
     {
       "kind": "chunk",
@@ -201,10 +201,10 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 270,
+      "uncompressed": 276,
       "gzip": 0,
-      "brotli": 88,
-      "parent": "dist/js-BYQ9mm_M.js"
+      "brotli": 90,
+      "parent": "dist/js-RUYE5mJC.js"
     },
     {
       "kind": "chunk",
@@ -214,7 +214,7 @@
       "uncompressed": 225,
       "gzip": 0,
       "brotli": 84,
-      "parent": "dist/jsdoc-BbXJQGBL.js"
+      "parent": "dist/jsdoc-C7d4L3dP.js"
     },
     {
       "kind": "chunk",
@@ -234,7 +234,7 @@
       "uncompressed": 259,
       "gzip": 0,
       "brotli": 88,
-      "parent": "dist/leanpub-md-C6FTGjMZ.js"
+      "parent": "dist/leanpub-md-BMEaP6OR.js"
     },
     {
       "kind": "chunk",
@@ -274,7 +274,7 @@
       "uncompressed": 203,
       "gzip": 0,
       "brotli": 82,
-      "parent": "dist/md-DvaShtM_.js"
+      "parent": "dist/md-DQ4L1VUm.js"
     },
     {
       "kind": "chunk",
@@ -283,18 +283,18 @@
       "format": "other",
       "uncompressed": 2148,
       "gzip": 0,
-      "brotli": 253,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 254,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "chunk",
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 1203,
+      "uncompressed": 1263,
       "gzip": 0,
-      "brotli": 229,
-      "parent": "dist/micromark-extension-gfm-table-DTaYeBnk.js"
+      "brotli": 236,
+      "parent": "dist/micromark-extension-gfm-table-DkJDFAXs.js"
     },
     {
       "kind": "chunk",
@@ -353,8 +353,8 @@
       "format": "other",
       "uncompressed": 153,
       "gzip": 0,
-      "brotli": 78,
-      "parent": "dist/regex-CDvdT5xr.js"
+      "brotli": 79,
+      "parent": "dist/regex--5bDGxnZ.js"
     },
     {
       "kind": "chunk",
@@ -401,10 +401,10 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 282,
+      "uncompressed": 288,
       "gzip": 0,
-      "brotli": 88,
-      "parent": "dist/ts-CHR2kmGf.js"
+      "brotli": 87,
+      "parent": "dist/ts-DNwPH4R-.js"
     },
     {
       "kind": "chunk",
@@ -470,11 +470,11 @@
     },
     {
       "kind": "asset",
-      "name": "dist/css-BnMjXUr8.js",
+      "name": "dist/css-zcoqwlxa.js",
       "type": "script",
-      "uncompressed": 870,
+      "uncompressed": 901,
       "gzip": 0,
-      "brotli": 398
+      "brotli": 372
     },
     {
       "kind": "asset",
@@ -494,11 +494,11 @@
     },
     {
       "kind": "asset",
-      "name": "dist/dist-DRv2xTzQ.js",
+      "name": "dist/dist-BdH_EUdu.js",
       "type": "script",
       "uncompressed": 4983,
       "gzip": 0,
-      "brotli": 1785
+      "brotli": 1788
     },
     {
       "kind": "asset",
@@ -512,9 +512,9 @@
       "kind": "asset",
       "name": "dist/dpuse-tool-micromark-markdown-parser.es.js",
       "type": "script",
-      "uncompressed": 75905,
+      "uncompressed": 75904,
       "gzip": 0,
-      "brotli": 16498
+      "brotli": 16528
     },
     {
       "kind": "asset",
@@ -550,11 +550,11 @@
     },
     {
       "kind": "asset",
-      "name": "dist/html-BfuFQfc8.js",
+      "name": "dist/html-DMgKiosp.js",
       "type": "script",
-      "uncompressed": 1872,
+      "uncompressed": 2174,
       "gzip": 0,
-      "brotli": 671
+      "brotli": 799
     },
     {
       "kind": "asset",
@@ -582,19 +582,19 @@
     },
     {
       "kind": "asset",
-      "name": "dist/js-BYQ9mm_M.js",
+      "name": "dist/js-RUYE5mJC.js",
       "type": "script",
-      "uncompressed": 1774,
+      "uncompressed": 1926,
       "gzip": 0,
-      "brotli": 783
+      "brotli": 847
     },
     {
       "kind": "asset",
-      "name": "dist/jsdoc-BbXJQGBL.js",
+      "name": "dist/jsdoc-C7d4L3dP.js",
       "type": "script",
-      "uncompressed": 633,
+      "uncompressed": 632,
       "gzip": 0,
-      "brotli": 289
+      "brotli": 288
     },
     {
       "kind": "asset",
@@ -606,19 +606,19 @@
     },
     {
       "kind": "asset",
-      "name": "dist/languages-Cl_wXK_z.js",
+      "name": "dist/languages-CUONw0-I.js",
       "type": "script",
       "uncompressed": 1572,
       "gzip": 0,
-      "brotli": 613
+      "brotli": 615
     },
     {
       "kind": "asset",
-      "name": "dist/leanpub-md-C6FTGjMZ.js",
+      "name": "dist/leanpub-md-BMEaP6OR.js",
       "type": "script",
-      "uncompressed": 2812,
+      "uncompressed": 2853,
       "gzip": 0,
-      "brotli": 1160
+      "brotli": 1180
     },
     {
       "kind": "asset",
@@ -646,27 +646,27 @@
     },
     {
       "kind": "asset",
-      "name": "dist/md-DvaShtM_.js",
+      "name": "dist/md-DQ4L1VUm.js",
       "type": "script",
-      "uncompressed": 2266,
+      "uncompressed": 2307,
       "gzip": 0,
-      "brotli": 1066
+      "brotli": 1085
     },
     {
       "kind": "asset",
-      "name": "dist/micromark-extension-directive-CIWJMWiY.js",
+      "name": "dist/micromark-extension-directive-q9r1sYsN.js",
       "type": "script",
-      "uncompressed": 18889,
+      "uncompressed": 18885,
       "gzip": 0,
-      "brotli": 4478
+      "brotli": 4490
     },
     {
       "kind": "asset",
-      "name": "dist/micromark-extension-gfm-table-DTaYeBnk.js",
+      "name": "dist/micromark-extension-gfm-table-DkJDFAXs.js",
       "type": "script",
-      "uncompressed": 9815,
+      "uncompressed": 9926,
       "gzip": 0,
-      "brotli": 2520
+      "brotli": 2546
     },
     {
       "kind": "asset",
@@ -710,11 +710,11 @@
     },
     {
       "kind": "asset",
-      "name": "dist/regex-CDvdT5xr.js",
+      "name": "dist/regex--5bDGxnZ.js",
       "type": "script",
-      "uncompressed": 392,
+      "uncompressed": 396,
       "gzip": 0,
-      "brotli": 218
+      "brotli": 226
     },
     {
       "kind": "asset",
@@ -750,11 +750,11 @@
     },
     {
       "kind": "asset",
-      "name": "dist/ts-CHR2kmGf.js",
+      "name": "dist/ts-DNwPH4R-.js",
       "type": "script",
-      "uncompressed": 2001,
+      "uncompressed": 2153,
       "gzip": 0,
-      "brotli": 858
+      "brotli": 910
     },
     {
       "kind": "asset",
@@ -794,8 +794,8 @@
       "format": "esm",
       "uncompressed": 4578,
       "gzip": 0,
-      "brotli": 1641,
-      "parent": "dist/dist-DRv2xTzQ.js"
+      "brotli": 1642,
+      "parent": "dist/dist-BdH_EUdu.js"
     },
     {
       "kind": "filesystem",
@@ -870,17 +870,17 @@
       "name": "node_modules/@speed-highlight/core/dist/languages/css.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 622
+      "uncompressed": 641
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/css.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 682,
+      "uncompressed": 707,
       "gzip": 0,
-      "brotli": 311,
-      "parent": "dist/css-BnMjXUr8.js"
+      "brotli": 292,
+      "parent": "dist/css-zcoqwlxa.js"
     },
     {
       "kind": "filesystem",
@@ -972,17 +972,17 @@
       "name": "node_modules/@speed-highlight/core/dist/languages/html.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1426
+      "uncompressed": 1658
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/html.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1505,
+      "uncompressed": 1785,
       "gzip": 0,
-      "brotli": 575,
-      "parent": "dist/html-BfuFQfc8.js"
+      "brotli": 711,
+      "parent": "dist/html-DMgKiosp.js"
     },
     {
       "kind": "filesystem",
@@ -1047,34 +1047,34 @@
       "name": "node_modules/@speed-highlight/core/dist/languages/js.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1352
+      "uncompressed": 1492
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/js.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1504,
+      "uncompressed": 1650,
       "gzip": 0,
-      "brotli": 695,
-      "parent": "dist/js-BYQ9mm_M.js"
+      "brotli": 757,
+      "parent": "dist/js-RUYE5mJC.js"
     },
     {
       "kind": "filesystem",
       "name": "node_modules/@speed-highlight/core/dist/languages/jsdoc.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 380
+      "uncompressed": 379
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/jsdoc.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 408,
+      "uncompressed": 407,
       "gzip": 0,
-      "brotli": 205,
-      "parent": "dist/jsdoc-BbXJQGBL.js"
+      "brotli": 204,
+      "parent": "dist/jsdoc-C7d4L3dP.js"
     },
     {
       "kind": "filesystem",
@@ -1098,17 +1098,17 @@
       "name": "node_modules/@speed-highlight/core/dist/languages/leanpub-md.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 2365
+      "uncompressed": 2406
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/leanpub-md.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 2553,
+      "uncompressed": 2594,
       "gzip": 0,
-      "brotli": 1072,
-      "parent": "dist/leanpub-md-C6FTGjMZ.js"
+      "brotli": 1092,
+      "parent": "dist/leanpub-md-BMEaP6OR.js"
     },
     {
       "kind": "filesystem",
@@ -1166,17 +1166,17 @@
       "name": "node_modules/@speed-highlight/core/dist/languages/md.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1900
+      "uncompressed": 1941
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/md.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 2063,
+      "uncompressed": 2104,
       "gzip": 0,
-      "brotli": 984,
-      "parent": "dist/md-DvaShtM_.js"
+      "brotli": 1003,
+      "parent": "dist/md-DQ4L1VUm.js"
     },
     {
       "kind": "filesystem",
@@ -1234,17 +1234,17 @@
       "name": "node_modules/@speed-highlight/core/dist/languages/regex.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 226
+      "uncompressed": 230
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/regex.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 239,
+      "uncompressed": 243,
       "gzip": 0,
-      "brotli": 140,
-      "parent": "dist/regex-CDvdT5xr.js"
+      "brotli": 147,
+      "parent": "dist/regex--5bDGxnZ.js"
     },
     {
       "kind": "filesystem",
@@ -1319,17 +1319,17 @@
       "name": "node_modules/@speed-highlight/core/dist/languages/ts.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1568
+      "uncompressed": 1708
     },
     {
       "kind": "chunk",
       "name": "node_modules/@speed-highlight/core/dist/languages/ts.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 1719,
+      "uncompressed": 1865,
       "gzip": 0,
-      "brotli": 770,
-      "parent": "dist/ts-CHR2kmGf.js"
+      "brotli": 823,
+      "parent": "dist/ts-DNwPH4R-.js"
     },
     {
       "kind": "filesystem",
@@ -1410,8 +1410,8 @@
       "format": "esm",
       "uncompressed": 656,
       "gzip": 0,
-      "brotli": 281,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 282,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1428,7 +1428,7 @@
       "uncompressed": 332,
       "gzip": 0,
       "brotli": 110,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1461,8 +1461,8 @@
       "format": "esm",
       "uncompressed": 120,
       "gzip": 0,
-      "brotli": 70,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 71,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1479,7 +1479,7 @@
       "uncompressed": 39,
       "gzip": 0,
       "brotli": 33,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1495,8 +1495,8 @@
       "format": "esm",
       "uncompressed": 97,
       "gzip": 0,
-      "brotli": 70,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 71,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1513,7 +1513,7 @@
       "uncompressed": 142,
       "gzip": 0,
       "brotli": 88,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1536,7 +1536,7 @@
       "format": "esm",
       "uncompressed": 2440,
       "gzip": 0,
-      "brotli": 536,
+      "brotli": 537,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1553,7 +1553,7 @@
       "format": "esm",
       "uncompressed": 1264,
       "gzip": 0,
-      "brotli": 267,
+      "brotli": 268,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1570,7 +1570,7 @@
       "format": "esm",
       "uncompressed": 198,
       "gzip": 0,
-      "brotli": 92,
+      "brotli": 93,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1638,7 +1638,7 @@
       "format": "esm",
       "uncompressed": 2700,
       "gzip": 0,
-      "brotli": 492,
+      "brotli": 493,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1672,7 +1672,7 @@
       "format": "esm",
       "uncompressed": 1604,
       "gzip": 0,
-      "brotli": 375,
+      "brotli": 376,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1689,7 +1689,7 @@
       "format": "esm",
       "uncompressed": 1057,
       "gzip": 0,
-      "brotli": 295,
+      "brotli": 296,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1706,7 +1706,7 @@
       "format": "esm",
       "uncompressed": 1287,
       "gzip": 0,
-      "brotli": 293,
+      "brotli": 294,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1757,7 +1757,7 @@
       "format": "esm",
       "uncompressed": 4422,
       "gzip": 0,
-      "brotli": 753,
+      "brotli": 755,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1791,7 +1791,7 @@
       "format": "esm",
       "uncompressed": 3706,
       "gzip": 0,
-      "brotli": 728,
+      "brotli": 729,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1859,7 +1859,7 @@
       "format": "esm",
       "uncompressed": 2985,
       "gzip": 0,
-      "brotli": 553,
+      "brotli": 554,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1876,7 +1876,7 @@
       "format": "esm",
       "uncompressed": 1340,
       "gzip": 0,
-      "brotli": 367,
+      "brotli": 368,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -1917,8 +1917,8 @@
       "format": "esm",
       "uncompressed": 3244,
       "gzip": 0,
-      "brotli": 652,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 655,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1934,8 +1934,8 @@
       "format": "esm",
       "uncompressed": 1177,
       "gzip": 0,
-      "brotli": 269,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 271,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1951,8 +1951,8 @@
       "format": "esm",
       "uncompressed": 1157,
       "gzip": 0,
-      "brotli": 276,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 277,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1968,8 +1968,8 @@
       "format": "esm",
       "uncompressed": 2347,
       "gzip": 0,
-      "brotli": 471,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 473,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -1985,8 +1985,8 @@
       "format": "esm",
       "uncompressed": 842,
       "gzip": 0,
-      "brotli": 269,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 270,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -2003,7 +2003,7 @@
       "uncompressed": 324,
       "gzip": 0,
       "brotli": 128,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -2019,8 +2019,8 @@
       "format": "esm",
       "uncompressed": 3013,
       "gzip": 0,
-      "brotli": 547,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 549,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -2037,7 +2037,7 @@
       "uncompressed": 67,
       "gzip": 0,
       "brotli": 52,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -2051,24 +2051,24 @@
       "name": "node_modules/micromark-extension-gfm-table/lib/edit-map.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 5284
+      "uncompressed": 5814
     },
     {
       "kind": "chunk",
       "name": "node_modules/micromark-extension-gfm-table/lib/edit-map.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 671,
+      "uncompressed": 717,
       "gzip": 0,
-      "brotli": 279,
-      "parent": "dist/micromark-extension-gfm-table-DTaYeBnk.js"
+      "brotli": 307,
+      "parent": "dist/micromark-extension-gfm-table-DkJDFAXs.js"
     },
     {
       "kind": "filesystem",
       "name": "node_modules/micromark-extension-gfm-table/lib/html.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 3820
+      "uncompressed": 3980
     },
     {
       "kind": "chunk",
@@ -2077,8 +2077,8 @@
       "format": "esm",
       "uncompressed": 1755,
       "gzip": 0,
-      "brotli": 451,
-      "parent": "dist/micromark-extension-gfm-table-DTaYeBnk.js"
+      "brotli": 448,
+      "parent": "dist/micromark-extension-gfm-table-DkJDFAXs.js"
     },
     {
       "kind": "filesystem",
@@ -2094,25 +2094,25 @@
       "format": "esm",
       "uncompressed": 505,
       "gzip": 0,
-      "brotli": 201,
-      "parent": "dist/micromark-extension-gfm-table-DTaYeBnk.js"
+      "brotli": 200,
+      "parent": "dist/micromark-extension-gfm-table-DkJDFAXs.js"
     },
     {
       "kind": "filesystem",
       "name": "node_modules/micromark-extension-gfm-table/lib/syntax.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 20730
+      "uncompressed": 21444
     },
     {
       "kind": "chunk",
       "name": "node_modules/micromark-extension-gfm-table/lib/syntax.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 5681,
+      "uncompressed": 5686,
       "gzip": 0,
-      "brotli": 1360,
-      "parent": "dist/micromark-extension-gfm-table-DTaYeBnk.js"
+      "brotli": 1356,
+      "parent": "dist/micromark-extension-gfm-table-DkJDFAXs.js"
     },
     {
       "kind": "filesystem",
@@ -2128,7 +2128,7 @@
       "format": "esm",
       "uncompressed": 1128,
       "gzip": 0,
-      "brotli": 251,
+      "brotli": 252,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2145,7 +2145,7 @@
       "format": "esm",
       "uncompressed": 773,
       "gzip": 0,
-      "brotli": 219,
+      "brotli": 220,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2383,7 +2383,7 @@
       "format": "esm",
       "uncompressed": 2224,
       "gzip": 0,
-      "brotli": 580,
+      "brotli": 581,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2400,7 +2400,7 @@
       "format": "esm",
       "uncompressed": 1767,
       "gzip": 0,
-      "brotli": 360,
+      "brotli": 361,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2434,7 +2434,7 @@
       "format": "esm",
       "uncompressed": 8201,
       "gzip": 0,
-      "brotli": 1587,
+      "brotli": 1590,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2468,7 +2468,7 @@
       "format": "esm",
       "uncompressed": 3713,
       "gzip": 0,
-      "brotli": 929,
+      "brotli": 931,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2500,9 +2500,9 @@
       "name": "node_modules/micromark/lib/initialize/document.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 2670,
+      "uncompressed": 2669,
       "gzip": 0,
-      "brotli": 624,
+      "brotli": 626,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2536,7 +2536,7 @@
       "format": "esm",
       "uncompressed": 1893,
       "gzip": 0,
-      "brotli": 550,
+      "brotli": 551,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2609,10 +2609,10 @@
       "name": "node_modules/parse-entities/lib/index.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 3184,
+      "uncompressed": 3180,
       "gzip": 0,
-      "brotli": 909,
-      "parent": "dist/micromark-extension-directive-CIWJMWiY.js"
+      "brotli": 905,
+      "parent": "dist/micromark-extension-directive-q9r1sYsN.js"
     },
     {
       "kind": "filesystem",
@@ -2628,7 +2628,7 @@
       "format": "esm",
       "uncompressed": 1919,
       "gzip": 0,
-      "brotli": 455,
+      "brotli": 456,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
     {
@@ -2922,7 +2922,7 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/css-BnMjXUr8.js",
+      "source": "dist/css-zcoqwlxa.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/css.js",
       "original": null
     },
@@ -2940,7 +2940,7 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/dist-DRv2xTzQ.js",
+      "source": "dist/dist-BdH_EUdu.js",
       "target": "node_modules/@speed-highlight/core/dist/index.js",
       "original": null
     },
@@ -2976,7 +2976,7 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/html-BfuFQfc8.js",
+      "source": "dist/html-DMgKiosp.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/html.js",
       "original": null
     },
@@ -3000,13 +3000,13 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/js-BYQ9mm_M.js",
+      "source": "dist/js-RUYE5mJC.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/js.js",
       "original": null
     },
     {
       "kind": "entrypoint",
-      "source": "dist/jsdoc-BbXJQGBL.js",
+      "source": "dist/jsdoc-C7d4L3dP.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/jsdoc.js",
       "original": null
     },
@@ -3018,7 +3018,7 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/leanpub-md-C6FTGjMZ.js",
+      "source": "dist/leanpub-md-BMEaP6OR.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/leanpub-md.js",
       "original": null
     },
@@ -3042,19 +3042,19 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/md-DvaShtM_.js",
+      "source": "dist/md-DQ4L1VUm.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/md.js",
       "original": null
     },
     {
       "kind": "entrypoint",
-      "source": "dist/micromark-extension-directive-CIWJMWiY.js",
+      "source": "dist/micromark-extension-directive-q9r1sYsN.js",
       "target": "node_modules/micromark-extension-directive/index.js",
       "original": null
     },
     {
       "kind": "entrypoint",
-      "source": "dist/micromark-extension-gfm-table-DTaYeBnk.js",
+      "source": "dist/micromark-extension-gfm-table-DkJDFAXs.js",
       "target": "node_modules/micromark-extension-gfm-table/index.js",
       "original": null
     },
@@ -3078,7 +3078,7 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/regex-CDvdT5xr.js",
+      "source": "dist/regex--5bDGxnZ.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/regex.js",
       "original": null
     },
@@ -3108,7 +3108,7 @@
     },
     {
       "kind": "entrypoint",
-      "source": "dist/ts-CHR2kmGf.js",
+      "source": "dist/ts-DNwPH4R-.js",
       "target": "node_modules/@speed-highlight/core/dist/languages/ts.js",
       "original": null
     },

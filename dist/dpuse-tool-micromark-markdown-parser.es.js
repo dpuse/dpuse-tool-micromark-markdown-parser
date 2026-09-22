@@ -524,7 +524,7 @@ function z(e) {
 		if (r === n.length) {
 			if (!i) return p(a);
 			if (i.currentConstruct && i.currentConstruct.concrete) return h(a);
-			t.interrupt = !!(i.currentConstruct && !i._gfmTableDynamicInterruptHack);
+			t.interrupt = !(!i.currentConstruct || i._gfmTableDynamicInterruptHack);
 		}
 		return t.containerState = {}, e.check(R, d, f)(a);
 	}
@@ -2458,7 +2458,7 @@ var tn = {
 		let n = [], r = [nn];
 		if (t?.directives ?? !1) {
 			$.directiveExtensionPromise ??= (async () => {
-				let e = await import("./micromark-extension-directive-CIWJMWiY.js");
+				let e = await import("./micromark-extension-directive-q9r1sYsN.js");
 				return {
 					extension: e.directive(),
 					htmlExtension: e.directiveHtml({ note: sn })
@@ -2469,7 +2469,7 @@ var tn = {
 		}
 		if (t?.tables ?? !1) {
 			$.tableExtensionPromise ??= (async () => {
-				let e = await import("./micromark-extension-gfm-table-DTaYeBnk.js");
+				let e = await import("./micromark-extension-gfm-table-DkJDFAXs.js");
 				return {
 					extension: e.gfmTable(),
 					htmlExtension: e.gfmTableHtml()
@@ -2563,7 +2563,7 @@ function ln(e) {
 async function un() {
 	return $.speedHighlight ? $.speedHighlight : ($.speedHighlightPromise ??= (async () => {
 		let [e, t, n] = await Promise.all([
-			import("./dist-DRv2xTzQ.js"),
+			import("./dist-BdH_EUdu.js"),
 			import("./github-dark-CTHfNL12.js"),
 			import("./github-light-OLdb5Tfn.js")
 		]);

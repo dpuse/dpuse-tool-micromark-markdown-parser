@@ -48,10 +48,10 @@ var e = [
 	},
 	{
 		type: "kwd",
-		match: /=>|\b(this|set|get|as|async|await|break|case|catch|class|const|constructor|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|if|implements|import|in|instanceof|interface|let|var|of|new|package|private|protected|public|return|static|super|switch|throw|throws|try|typeof|void|while|with|yield)\b/g
+		match: /=>|(?<![^.]\.)\b(this|set|get|as|async|await|break|case|catch|class|const|constructor|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|if|implements|import|in|instanceof|interface|let|var|of|new|package|private|protected|public|return|static|super|switch|throw|throws|try|typeof|void|while|with|yield)\b/g
 	},
 	{
-		match: /\/((?!\/)[^\r\n\\]|\\.)+\/[dgimsuy]*/g,
+		match: /(?<=[^\w$)\]'"`\s]\s*|\b(case|do|else|in|instanceof|new|of|return|throw|typeof|void|yield|await)\s+|^\s*)\/((?!\/)[^\r\n\\]|\\.)+\/\w*/gm,
 		type: "oper",
 		sub: "regex"
 	},
@@ -63,6 +63,10 @@ var e = [
 	{
 		type: "bool",
 		match: /\b(true|false)\b/g
+	},
+	{
+		type: "var",
+		match: /#[\w$]+/g
 	},
 	{
 		type: "oper",

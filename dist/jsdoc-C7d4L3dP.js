@@ -7,7 +7,7 @@ var e = {
 			match: /@\w+/g
 		},
 		{
-			type: "class",
+			type: "type",
 			match: /{[\w\s|<>,.@\[\]]+}/g
 		},
 		{

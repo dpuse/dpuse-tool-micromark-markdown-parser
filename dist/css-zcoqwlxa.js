@@ -7,12 +7,16 @@ var e = [
 	},
 	{ expand: "str" },
 	{
+		type: "var",
+		match: /--[\w-]+|\b[\w-]+(?=\s*:)/g
+	},
+	{
 		type: "kwd",
-		match: /@\w+\b|\b(and|not|only|or)\b|\b(?=([a-z-]+))\2(?=[^{}]*{)/g
+		match: /@[\w-]+\b|!important\b|\b(and|not|only|or)\b|\b(?=([a-z-]+))\2(?=[^{}]*{)/g
 	},
 	{
 		type: "var",
-		match: /\b[\w-]+(?=\s*:)|(::?|\.)[\w-]+(?=[^{}]*{)/g
+		match: /(::?|\.)(?!\d)[\w-]+(?=[^{}]*{)/g
 	},
 	{
 		type: "func",
@@ -20,14 +24,14 @@ var e = [
 	},
 	{
 		type: "num",
-		match: /#[\da-f]{3,8}/g
+		match: /#[\da-f]{3,8}/gi
 	},
 	{
 		type: "num",
-		match: /\d+(\.\d+)?(cm|mm|in|px|pt|pc|em|ex|ch|rem|vm|vh|vmin|vmax|%)?/g,
+		match: /-?\d*\.?\d+([a-z]+|%)?/gi,
 		sub: [{
 			type: "var",
-			match: /[a-z]+|%/g
+			match: /[a-z]+|%/gi
 		}]
 	},
 	{
@@ -42,7 +46,7 @@ var e = [
 	},
 	{
 		type: "func",
-		match: /\b[a-zA-Z]\w*(?=\s*\()/g
+		match: /\b[a-zA-Z][\w-]*(?=\s*\()/g
 	},
 	{
 		type: "num",

@@ -385,7 +385,7 @@ function B(t, n) {
 			t && (v = b, y = t);
 		}
 		let C = 1 + u - s, w = "";
-		if (!(!S && r.nonTerminated === !1)) {
+		if (S || r.nonTerminated !== !1) {
 			if (!b) d !== "named" && g(4, C);
 			else if (d === "named") {
 				if (S && !y) g(5, 1);

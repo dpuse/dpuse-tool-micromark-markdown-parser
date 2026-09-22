@@ -57,7 +57,24 @@ var e = ":A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏�
 		type: "var",
 		match: /&(#x?)?[\da-z]{1,8};/gi
 	}
-], a = [
+], a = (e, t) => ({
+	type: "str",
+	match: RegExp(`(?<=\\s${e}\\s*)=\\s*('[^']*'|"[^"]*")`, "gi"),
+	sub: [{
+		type: "oper",
+		match: /^=/g
+	}, {
+		match: /(?<=['"])[^]+(?=['"]$)/g,
+		sub: t
+	}]
+}), o = {
+	...r,
+	sub: [
+		a("style", "css"),
+		a("on\\w+", "js"),
+		...r.sub
+	]
+}, s = [
 	{
 		type: "class",
 		match: /<!DOCTYPE("[^"]*"|'[^']*'|[^"'>])*>/gi,
@@ -81,13 +98,13 @@ var e = ":A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏�
 		sub: [
 			{
 				match: RegExp(`^<style${n}>`, "g"),
-				sub: r.sub
+				sub: o.sub
 			},
 			{
 				match: /[^]*(?=<\/style\s*>$)/g,
 				sub: "css"
 			},
-			r
+			o
 		]
 	},
 	{
@@ -95,16 +112,16 @@ var e = ":A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏�
 		sub: [
 			{
 				match: RegExp(`^<script${n}>`, "g"),
-				sub: r.sub
+				sub: o.sub
 			},
 			{
 				match: /[^]*(?=<\/script\s*>$)/g,
 				sub: "js"
 			},
-			r
+			o
 		]
 	},
-	...i
+	...i.map((e) => e === r ? o : e)
 ];
 //#endregion
-export { a as default };
+export { s as default };

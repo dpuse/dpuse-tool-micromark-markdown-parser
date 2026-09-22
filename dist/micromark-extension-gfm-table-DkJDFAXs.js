@@ -68,7 +68,7 @@ function o(e, t) {
 //#region node_modules/micromark-extension-gfm-table/lib/edit-map.js
 var s = class {
 	constructor() {
-		this.map = [];
+		this.map = [], this.index = /* @__PURE__ */ new Map();
 	}
 	add(e, t, n) {
 		c(this, e, t, n);
@@ -86,25 +86,23 @@ var s = class {
 			for (let t of r) e.push(t);
 			r = n.pop();
 		}
-		this.map.length = 0;
+		this.map.length = 0, this.index.clear();
 	}
 };
 function c(e, t, n, r) {
-	let i = 0;
-	if (n !== 0 || r.length !== 0) {
-		for (; i < e.map.length;) {
-			if (e.map[i][0] === t) {
-				e.map[i][1] += n, e.map[i][2].push(...r);
-				return;
-			}
-			i += 1;
-		}
-		e.map.push([
-			t,
-			n,
-			r
-		]);
+	/* c8 ignore next 3 -- `resolve` is never called without tables, so without edits. */
+	if (n === 0 && r.length === 0) return;
+	let i = e.index.get(t);
+	if (i) {
+		i[1] += n, i[2].push(...r);
+		return;
 	}
+	let a = [
+		t,
+		n,
+		r
+	];
+	e.map.push(a), e.index.set(t, a);
 }
 //#endregion
 //#region node_modules/micromark-extension-gfm-table/lib/infer.js
@@ -140,7 +138,7 @@ function d(i, a, o) {
 	function d(e) {
 		let t = s.events.length - 1;
 		for (; t > -1;) {
-			let e = s.events[t][1].type;
+			let { type: e } = s.events[t][1];
 			if (e === "lineEnding" || e === "linePrefix") t--;
 			else break;
 		}

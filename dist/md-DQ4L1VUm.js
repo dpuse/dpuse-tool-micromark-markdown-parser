@@ -1,4 +1,4 @@
-//#region node_modules/@speed-highlight/core/dist/languages/leanpub-md.js
+//#region node_modules/@speed-highlight/core/dist/languages/md.js
 var e = {
 	bash: [[/#!(\/usr)?\/bin\/bash/g, 500], [/\b(if|elif|then|fi|echo)\b|\$/g, 10]],
 	html: [[/<\/?[a-z-]+[^\n>]*>/g, 10], [/^\s+<!DOCTYPE\s+html/g, 500]],
@@ -27,37 +27,19 @@ function t(t) {
 }
 var n = [
 	{
-		type: "insert",
-		match: /(leanpub-start-insert)((?!leanpub-end-insert)[^])*(leanpub-end-insert)?/g,
-		sub: [{
-			type: "insert",
-			match: /leanpub-(start|end)-insert/g
-		}, {
-			match: /(?!leanpub-start-insert)((?!leanpub-end-insert)[^])*/g,
-			sub: t
-		}]
-	},
-	{
-		type: "deleted",
-		match: /(leanpub-start-delete)((?!leanpub-end-delete)[^])*(leanpub-end-delete)?/g,
-		sub: [{
-			type: "deleted",
-			match: /leanpub-(start|end)-delete/g
-		}, {
-			match: /(?!leanpub-start-delete)((?!leanpub-end-delete)[^])*/g,
-			sub: t
-		}]
-	},
-	{
 		type: "cmnt",
-		match: /^>.*|(=|-)\1+/gm
+		match: /^>.*|^[ \t]*(=+|-{2,})[ \t]*$/gm
+	},
+	{
+		type: "section",
+		match: /^#{1,6}[ \t]/gm
 	},
 	{
 		type: "class",
 		match: /\*\*.*?\*\*/g
 	},
 	{
-		match: /^(`{3,})(.*)\n[^]*?^\1[ \t]*$/gm,
+		match: /^(`{3,}).*\n[^]*?^\1[ \t]*$/gm,
 		sub: (e) => ({
 			type: "kwd",
 			sub: [{
@@ -68,7 +50,7 @@ var n = [
 	},
 	{
 		type: "str",
-		match: /`[^`]*`/g
+		match: /`[^`\n]*`/g
 	},
 	{
 		type: "var",
@@ -76,11 +58,7 @@ var n = [
 	},
 	{
 		type: "kwd",
-		match: /\b_\S([^\n]*?\S)?_\b|\*\S([^\n]*?\S)?\*/g
-	},
-	{
-		type: "kwd",
-		match: /^\s*(\*|\d+\.)\s/gm
+		match: /\b_\S(.*?\S)?_\b|\*\S(.*?\S)?\*|^[ \t]*([*+-]|\d+[.)])([ \t]|$)/gm
 	},
 	{
 		type: "func",
