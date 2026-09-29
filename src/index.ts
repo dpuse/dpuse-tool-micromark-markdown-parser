@@ -55,13 +55,13 @@ export class MicromarkTool {
 
         for (const element of renderTo.querySelectorAll<HTMLDivElement>('div[class^="shj-lang-"]')) {
             const lang = (/shj-lang-(\S+)/.exec((element as HTMLElement).className) ?? [])[1];
-            if (lang === 'javascript') {
-                await highlightElement(element, 'js', 'multiline', { hideLineNumbers: true });
-                Object.assign((element as HTMLElement).style, {
-                    fontFamily: "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, Liberation Mono, monospace",
-                    fontSize: '14px'
-                });
-            }
+            if (lang !== 'javascript') continue;
+
+            await highlightElement(element, 'js'); // A 'div' renders as a block, without line numbers, by default.
+            Object.assign((element as HTMLElement).style, {
+                fontFamily: "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, Liberation Mono, monospace",
+                fontSize: '14px'
+            });
         }
     }
 
@@ -111,9 +111,6 @@ function escapeHTML(string_: string): string {
 
 function createCodeBlockHtmlExtension(): HtmlExtension {
     let currentBlockData: { codeContent: string[]; lang: string } | undefined;
-    /* eslint-disable unicorn/no-this-outside-of-class --
-       micromark's `Handle` type requires handlers typed as `this: CompileContext`; the CompileContext is passed via
-       dynamic `this` binding (micromark calls `handler.call(compileContext, token)`), not through a class. */
     return {
         enter: {
             codeFenced(this: CompileContext): undefined /* The entire fenced code block starts. */ {
@@ -185,14 +182,10 @@ function createCodeBlockHtmlExtension(): HtmlExtension {
             }
         }
     };
-    /* eslint-enable unicorn/no-this-outside-of-class --
-       end of the micromark `this: CompileContext` handler shim */
 }
 
 // ── Helpers - Note Directive ─────────────────────────────────────────────────────────────────────────────────────────
 
-/* eslint-disable unicorn/no-this-outside-of-class --
-   micromark's `Handle` type requires handlers typed as `this: CompileContext`; see createChartHtmlExtension. */
 function handleNoteDirective(this: CompileContext, directive: Directive): boolean | undefined {
     if (directive.type !== 'leafDirective') return false;
 
@@ -200,8 +193,6 @@ function handleNoteDirective(this: CompileContext, directive: Directive): boolea
     this.raw(escapeHTML(directive.label ?? ''));
     this.tag('</p>');
 }
-/* eslint-enable unicorn/no-this-outside-of-class --
-   end of the micromark `this: CompileContext` handler shim */
 
 // ── Helpers - Theme ──────────────────────────────────────────────────────────────────────────────────────────────────
 
@@ -222,7 +213,6 @@ function applyColorMode(): void {
 function injectStyle(cssText: string): void {
     if (typeof document === 'undefined') return;
 
-    // eslint-disable-next-line n/no-unsupported-features/node-builtins -- browser-only path (the `typeof document` guard above returns early under Node).
     const blobUrl = URL.createObjectURL(new Blob([cssText], { type: 'text/css' }));
     let link = document.querySelector<HTMLLinkElement>('#dpuse-code-theme');
     const previousBlobUrl = link?.href;
@@ -234,7 +224,6 @@ function injectStyle(cssText: string): void {
     }
     link.href = blobUrl;
     if (previousBlobUrl) {
-        // eslint-disable-next-line n/no-unsupported-features/node-builtins -- browser-only path (the `typeof document` guard above returns early under Node).
         URL.revokeObjectURL(previousBlobUrl);
     }
 }

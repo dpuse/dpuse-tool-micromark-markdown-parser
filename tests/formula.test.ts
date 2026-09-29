@@ -1,5 +1,7 @@
 // ── External Dependencies & Registrations
 import { describe, expect, it } from 'vitest';
+
+// ── Local
 import { generateMathML } from '@/formula';
 
 // ── Tests ────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -38,33 +40,25 @@ describe('generateMathML', () => {
     });
 
     it('renders parenthesized groups', () => {
-        expect(generateMathML('(A+B)')).toBe(
-            '<math display="block"><mrow><mo>(</mo><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow><mo>)</mo></mrow></math>',
-        );
+        expect(generateMathML('(A+B)')).toBe('<math display="block"><mrow><mo>(</mo><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow><mo>)</mo></mrow></math>');
     });
 
     it('gives multiplication and division higher precedence than addition and subtraction', () => {
-        expect(generateMathML('A+B*C')).toBe(
-            '<math display="block"><mrow><mi>A</mi><mo>+</mo><mrow><mi>B</mi><mo>×</mo><mi>C</mi></mrow></mrow></math>',
-        );
+        expect(generateMathML('A+B*C')).toBe('<math display="block"><mrow><mi>A</mi><mo>+</mo><mrow><mi>B</mi><mo>×</mo><mi>C</mi></mrow></mrow></math>');
     });
 
     it('respects explicit parentheses over default precedence', () => {
         expect(generateMathML('(A+B)*C')).toBe(
-            '<math display="block"><mrow><mrow><mo>(</mo><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow><mo>)</mo></mrow><mo>×</mo><mi>C</mi></mrow></math>',
+            '<math display="block"><mrow><mrow><mo>(</mo><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow><mo>)</mo></mrow><mo>×</mo><mi>C</mi></mrow></math>'
         );
     });
 
     it('left-associates a chain of same-precedence operators', () => {
-        expect(generateMathML('A-B-C')).toBe(
-            '<math display="block"><mrow><mrow><mi>A</mi><mo>-</mo><mi>B</mi></mrow><mo>-</mo><mi>C</mi></mrow></math>',
-        );
+        expect(generateMathML('A-B-C')).toBe('<math display="block"><mrow><mrow><mi>A</mi><mo>-</mo><mi>B</mi></mrow><mo>-</mo><mi>C</mi></mrow></math>');
     });
 
     it('right-associates chained assignment', () => {
-        expect(generateMathML('A=B=C')).toBe(
-            '<math display="block"><mrow><mi>A</mi><mo>=</mo><mrow><mi>B</mi><mo>=</mo><mi>C</mi></mrow></mrow></math>',
-        );
+        expect(generateMathML('A=B=C')).toBe('<math display="block"><mrow><mi>A</mi><mo>=</mo><mrow><mi>B</mi><mo>=</mo><mi>C</mi></mrow></mrow></math>');
     });
 
     it('drops characters outside the supported token set, such as underscores', () => {
@@ -81,7 +75,7 @@ describe('generateMathML', () => {
     });
 
     it('renders a whitespace-only expression as empty math rather than throwing', () => {
-        expect(generateMathML('   ')).toBe('<math display="block"></math>');
+        expect(generateMathML(' '.repeat(3))).toBe('<math display="block"></math>');
     });
 
     it('throws on an unclosed parenthesis', () => {

@@ -1,11 +1,11 @@
 {
-    "@speed-highlight/core@1.2.23": {
+    "@speed-highlight/core@2.1.0": {
         "licenses": "CC0-1.0",
         "repository": "https://github.com/speed-highlight/core",
         "publisher": "matubu",
         "email": "hi@mathias.ninja",
         "path": "node_modules/@speed-highlight/core",
-        "licenseFile": "downloads/@speed-highlight/core@1.2.23-LICENSE.txt"
+        "licenseFile": "downloads/@speed-highlight/core@2.1.0-LICENSE.txt"
     },
     "@types/debug@4.1.12": {
         "licenses": "MIT",
@@ -128,13 +128,13 @@
         "path": "node_modules/micromark-extension-directive",
         "licenseFile": "downloads/micromark-extension-directive@4.0.0-LICENSE.txt"
     },
-    "micromark-extension-gfm-table@2.1.1": {
+    "micromark-extension-gfm-table@2.1.2": {
         "licenses": "MIT",
         "repository": "https://github.com/micromark/micromark-extension-gfm-table",
         "publisher": "Titus Wormer",
         "email": "tituswormer@gmail.com",
         "path": "node_modules/micromark-extension-gfm-table",
-        "licenseFile": "downloads/micromark-extension-gfm-table@2.1.1-LICENSE.txt"
+        "licenseFile": "downloads/micromark-extension-gfm-table@2.1.2-LICENSE.txt"
     },
     "micromark-factory-destination@2.0.1": {
         "licenses": "MIT",
