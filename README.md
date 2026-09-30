@@ -29,15 +29,6 @@ A library that wraps the Micromark markdown parser and Speed Highlight code high
 
 Consider TanStack Highlight library for replacing @speed-highlight at some future date.
 
-## Features
-
-- 🚀 **Fast Markdown Parsing**: with Micromark
-- 💡 **Efficient Syntax Highlighting**: via Speed Highlight
-- 🧠 **Memory-Optimised**: shared instance across all presenters
-- 📦 **Modular Loading**: optional modules loaded on demand
-- ☁️ **Cloud-Managed**: automatically updates new instances and notifies running instances of available updates
-- 🧑‍💻 **Implemented in TypeScript**: fully coded in TypeScript
-
 <!-- OPENING_END -->
 
 ## Installation
