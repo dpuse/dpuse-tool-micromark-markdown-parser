@@ -43,7 +43,9 @@ In addition, DPUse provides [Tools](https://www.dpuse.app) used by the applicati
 
 ## Introduction
 
-...
+A library that wraps the Micromark markdown parser and Speed Highlight code highlighter, improving browser memory efficiency by sharing single instances of these tools across all presenters and loading optional modules on demand.
+
+Consider TanStack Highlight library for replacing @speed-highlight at some future date.
 
 <!-- OPENING_END -->
 
