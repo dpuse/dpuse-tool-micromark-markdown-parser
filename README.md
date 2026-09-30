@@ -1,23 +1,5 @@
 # Data Positioning Micromark Tool
 
-Consider TanStack Highlight library for replacing @speed-highlight at some future date.
-
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11502/badge)](https://www.bestpractices.dev/projects/11502)
-[![npm version](https://img.shields.io/npm/v/@dpuse/dpuse-tool-micromark)](https://www.npmjs.com/package/@dpuse/dpuse-tool-micromark)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dpuse-tool-micromark&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=dpuse-tool-micromark)
-
-A library that wraps the Micromark markdown parser and Speed Highlight code highlighter, improving browser memory efficiency by sharing single instances of these tools across all presenters and loading optional modules on demand.
-
-## Features
-
-- 🚀 **Fast Markdown Parsing**: with Micromark
-- 💡 **Efficient Syntax Highlighting**: via Speed Highlight
-- 🧠 **Memory-Optimised**: shared instance across all presenters
-- 📦 **Modular Loading**: optional modules loaded on demand
-- ☁️ **Cloud-Managed**: automatically updates new instances and notifies running instances of available updates
-- 🧑‍💻 **Implemented in TypeScript**: fully coded in TypeScript
-
 <!-- OPENING_START -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
@@ -46,6 +28,15 @@ In addition, DPUse provides [Tools](https://www.dpuse.app) used by the applicati
 A library that wraps the Micromark markdown parser and Speed Highlight code highlighter, improving browser memory efficiency by sharing single instances of these tools across all presenters and loading optional modules on demand.
 
 Consider TanStack Highlight library for replacing @speed-highlight at some future date.
+
+## Features
+
+- 🚀 **Fast Markdown Parsing**: with Micromark
+- 💡 **Efficient Syntax Highlighting**: via Speed Highlight
+- 🧠 **Memory-Optimised**: shared instance across all presenters
+- 📦 **Modular Loading**: optional modules loaded on demand
+- ☁️ **Cloud-Managed**: automatically updates new instances and notifies running instances of available updates
+- 🧑‍💻 **Implemented in TypeScript**: fully coded in TypeScript
 
 <!-- OPENING_END -->
 
