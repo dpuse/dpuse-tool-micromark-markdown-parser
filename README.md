@@ -22,6 +22,7 @@ A library that wraps the Micromark markdown parser and Speed Highlight code high
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![DPUse version](https://img.shields.io/github/v/release/dpuse/dpuse-tool-micromark-markdown-parser?color=f6821f&label=DPUse)](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/releases/latest)
+[![npm version](https://img.shields.io/npm/v/@dpuse/dpuse-tool-micromark-markdown-parser?color=cb3837&label=npm)](https://www.npmjs.com/package/@dpuse/dpuse-tool-micromark-markdown-parser)
 [![CI](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml)
 
 [DPUse](https://www.dpuse.app) · [Report a Vulnerability](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/security/advisories/new) · [Open an Issue](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/issues)
@@ -122,6 +123,7 @@ License data is updated each time `npm run document` is run, using [license-chec
 | [micromark-util-classify-character](https://github.com/micromark/micromark.git#main)                 |  2.0.1  | MIT        | [LICENSE](licenses/downloads/micromark-util-classify-character@2.0.1-LICENSE.txt)                 |
 | [micromark-util-combine-extensions](https://github.com/micromark/micromark.git#main)                 |  2.0.1  | MIT        | [LICENSE](licenses/downloads/micromark-util-combine-extensions@2.0.1-LICENSE.txt)                 |
 | [micromark-util-decode-numeric-character-reference](https://github.com/micromark/micromark.git#main) |  2.0.2  | MIT        | [LICENSE](licenses/downloads/micromark-util-decode-numeric-character-reference@2.0.2-LICENSE.txt) |
+| [micromark-util-edit-map](https://github.com/micromark/micromark.git#main)                           |  1.0.0  | MIT        | [LICENSE](licenses/downloads/micromark-util-edit-map@1.0.0-LICENSE.txt)                           |
 | [micromark-util-encode](https://github.com/micromark/micromark.git#main)                             |  2.0.1  | MIT        | [LICENSE](licenses/downloads/micromark-util-encode@2.0.1-LICENSE.txt)                             |
 | [micromark-util-html-tag-name](https://github.com/micromark/micromark.git#main)                      |  2.0.1  | MIT        | [LICENSE](licenses/downloads/micromark-util-html-tag-name@2.0.1-LICENSE.txt)                      |
 | [micromark-util-normalize-identifier](https://github.com/micromark/micromark.git#main)               |  2.0.1  | MIT        | [LICENSE](licenses/downloads/micromark-util-normalize-identifier@2.0.1-LICENSE.txt)               |
@@ -130,7 +132,7 @@ License data is updated each time `npm run document` is run, using [license-chec
 | [micromark-util-subtokenize](https://github.com/micromark/micromark.git#main)                        |  2.1.0  | MIT        | [LICENSE](licenses/downloads/micromark-util-subtokenize@2.1.0-LICENSE.txt)                        |
 | [micromark-util-symbol](https://github.com/micromark/micromark.git#main)                             |  2.0.1  | MIT        | [LICENSE](licenses/downloads/micromark-util-symbol@2.0.1-LICENSE.txt)                             |
 | [micromark-util-types](https://github.com/micromark/micromark.git#main)                              |  2.0.2  | MIT        | [LICENSE](licenses/downloads/micromark-util-types@2.0.2-LICENSE.txt)                              |
-| [micromark](https://github.com/micromark/micromark.git#main)                                         |  4.0.2  | MIT        | [LICENSE](licenses/downloads/micromark@4.0.2-LICENSE.txt)                                         |
+| [micromark](https://github.com/micromark/micromark.git#main)                                         |  4.0.3  | MIT        | [LICENSE](licenses/downloads/micromark@4.0.3-LICENSE.txt)                                         |
 | [ms](https://github.com/vercel/ms)                                                                   |  2.1.3  | MIT        | [LICENSE](licenses/downloads/ms@2.1.3-LICENSE.txt)                                                |
 | [parse-entities](https://github.com/wooorm/parse-entities)                                           |  4.0.2  | MIT        | [LICENSE](licenses/downloads/parse-entities@4.0.2-LICENSE.txt)                                    |
 
@@ -171,7 +173,7 @@ The dependency tree below lists every package in this project — direct and tra
     - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
     - **[micromark-util-symbol](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
     - **[micromark-util-types](https://github.com/micromark/micromark.git#main)** 2.0.2 — **19 months** ago: 2025-02-27 ⚠️ → **latest**: 2.0.3 — this month: 2026-09-26 ❗
-- **[micromark](https://github.com/micromark/micromark.git#main)** 4.0.2 — **19 months** ago: 2025-02-27 ⚠️ → **latest**: 4.0.3 — this month: 2026-09-26 ❗
+- **[micromark](https://github.com/micromark/micromark.git#main)** 4.0.3 — this month: 2026-09-26
     - **[@types/debug](https://github.com/DefinitelyTyped/DefinitelyTyped)** 4.1.12 — **34 months** ago: 2023-11-09 ⚠️ → **latest**: 4.1.13 — **6 months** ago: 2026-03-19 ❗
         - **[@types/ms](https://github.com/DefinitelyTyped/DefinitelyTyped)** 2.1.0 — **20 months** ago: 2025-01-16 ⚠️
     - **[debug](https://github.com/debug-js/debug)** 4.4.3 — **12 months** ago: 2025-09-13 ⚠️
@@ -219,6 +221,8 @@ The dependency tree below lists every package in this project — direct and tra
         - **[micromark-util-types](https://github.com/micromark/micromark.git#main)** 2.0.2 — **19 months** ago: 2025-02-27 ⚠️ → **latest**: 2.0.3 — this month: 2026-09-26 ❗
     - **[micromark-util-decode-numeric-character-reference](https://github.com/micromark/micromark.git#main)** 2.0.2 — **22 months** ago: 2024-11-12 ⚠️
         - **[micromark-util-symbol](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
+    - **[micromark-util-edit-map](https://github.com/micromark/micromark.git#main)** 1.0.0 — this month: 2026-09-26
+        - **[micromark-util-types](https://github.com/micromark/micromark.git#main)** 2.0.2 — **19 months** ago: 2025-02-27 ⚠️ → **latest**: 2.0.3 — this month: 2026-09-26 ❗
     - **[micromark-util-encode](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
     - **[micromark-util-normalize-identifier](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
         - **[micromark-util-symbol](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
@@ -248,14 +252,14 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 
 | Chunk/Module/File                                                                    | Composition                                       |
 | :----------------------------------------------------------------------------------- | :------------------------------------------------ |
-| dist/dpuse-tool-micromark-markdown-parser.es.js                                      | 74.1 kB · gzip 18.5 kB                            |
-| &nbsp;&nbsp;&nbsp;&nbsp;micromark-core-commonmark                                    | `████░░░░░░░░░░░░░░░░` 22.0%                      |
+| dist/dpuse-tool-micromark-markdown-parser.es.js                                      | 75.1 kB · gzip 18.8 kB                            |
+| &nbsp;&nbsp;&nbsp;&nbsp;micromark-core-commonmark                                    | `████░░░░░░░░░░░░░░░░` 21.9%                      |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/html-flow.js                     | `█░░░░░░░░░░░░░░░░░░░` 3.0%                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/label-end.js                     | `█░░░░░░░░░░░░░░░░░░░` 2.5%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/label-end.js                     | `░░░░░░░░░░░░░░░░░░░░` 2.5%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/html-text.js                     | `░░░░░░░░░░░░░░░░░░░░` 2.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/list.js                          | `░░░░░░░░░░░░░░░░░░░░` 2.0%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/code-fenced.js                   | `░░░░░░░░░░░░░░░░░░░░` 1.8%                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/attention.js                     | `░░░░░░░░░░░░░░░░░░░░` 1.7%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/attention.js                     | `░░░░░░░░░░░░░░░░░░░░` 1.6%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/code-text.js                     | `░░░░░░░░░░░░░░░░░░░░` 1.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/setext-underline.js              | `░░░░░░░░░░░░░░░░░░░░` 0.9%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/heading-atx.js                   | `░░░░░░░░░░░░░░░░░░░░` 0.9%                       |
@@ -273,7 +277,7 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/blank-line.js                    | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/line-ending.js                   | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark                                                    | `███░░░░░░░░░░░░░░░░░` 13.1%                      |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/compile.js                       | `█░░░░░░░░░░░░░░░░░░░` 5.6%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/compile.js                       | `█░░░░░░░░░░░░░░░░░░░` 5.5%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/create-tokenizer.js              | `█░░░░░░░░░░░░░░░░░░░` 2.5%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/initialize/document.js           | `░░░░░░░░░░░░░░░░░░░░` 1.8%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/initialize/text.js               | `░░░░░░░░░░░░░░░░░░░░` 1.3%                       |
@@ -293,6 +297,7 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/splice-buffer.js                 | `░░░░░░░░░░░░░░░░░░░░` 1.2%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark-factory-destination → index.js                     | `░░░░░░░░░░░░░░░░░░░░` 0.8%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark-util-sanitize-uri → index.js                       | `░░░░░░░░░░░░░░░░░░░░` 0.6%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;micromark-util-edit-map → index.js                           | `░░░░░░░░░░░░░░░░░░░░` 0.5%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark-factory-label → index.js                           | `░░░░░░░░░░░░░░░░░░░░` 0.5%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark-factory-title → index.js                           | `░░░░░░░░░░░░░░░░░░░░` 0.5%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark-util-combine-extensions → index.js                 | `░░░░░░░░░░░░░░░░░░░░` 0.5%                       |
@@ -304,7 +309,7 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark-util-normalize-identifier → index.js               | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;micromark-util-classify-character → index.js                 | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | dist/micromark-extension-directive-q9r1sYsN.js                                       | 18.4 kB · gzip 5.0 kB                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;micromark-extension-directive                                | `██░░░░░░░░░░░░░░░░░░` 8.3%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;micromark-extension-directive                                | `██░░░░░░░░░░░░░░░░░░` 8.2%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/directive-container.js           | `░░░░░░░░░░░░░░░░░░░░` 2.2%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/html.js                          | `░░░░░░░░░░░░░░░░░░░░` 2.0%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/factory-attributes.js            | `░░░░░░░░░░░░░░░░░░░░` 1.6%                       |
@@ -313,8 +318,8 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/factory-label.js                 | `░░░░░░░░░░░░░░░░░░░░` 0.6%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/factory-name.js                  | `░░░░░░░░░░░░░░░░░░░░` 0.2%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/syntax.js                        | `░░░░░░░░░░░░░░░░░░░░` 0.0%                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;parse-entities → lib/index.js                                | `░░░░░░░░░░░░░░░░░░░░` 2.2%                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)                          | `░░░░░░░░░░░░░░░░░░░░` 1.5%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;parse-entities → lib/index.js                                | `░░░░░░░░░░░░░░░░░░░░` 2.1%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)                          | `░░░░░░░░░░░░░░░░░░░░` 1.4%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;character-entities-legacy → index.js                         | `░░░░░░░░░░░░░░░░░░░░` 0.4%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;character-reference-invalid → index.js                       | `░░░░░░░░░░░░░░░░░░░░` 0.2%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;is-hexadecimal → index.js                                    | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
@@ -322,8 +327,8 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;is-decimal → index.js                                        | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;is-alphanumerical → index.js                                 | `░░░░░░░░░░░░░░░░░░░░` 0.0%                       |
 | dist/micromark-extension-gfm-table-DkJDFAXs.js                                       | 9.7 kB · gzip 2.7 kB                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;micromark-extension-gfm-table                                | `█░░░░░░░░░░░░░░░░░░░` 5.9%                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/syntax.js                        | `█░░░░░░░░░░░░░░░░░░░` 3.9%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;micromark-extension-gfm-table                                | `█░░░░░░░░░░░░░░░░░░░` 5.8%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/syntax.js                        | `█░░░░░░░░░░░░░░░░░░░` 3.8%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/html.js                          | `░░░░░░░░░░░░░░░░░░░░` 1.2%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/edit-map.js                      | `░░░░░░░░░░░░░░░░░░░░` 0.5%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/infer.js                         | `░░░░░░░░░░░░░░░░░░░░` 0.3%                       |
@@ -335,7 +340,7 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/sql.js                | `░░░░░░░░░░░░░░░░░░░░` 2.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)                          | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | dist/leanpub-md-BMEaP6OR.js                                                          | 2.8 kB · gzip 1.3 kB                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/leanpub-md.js         | `░░░░░░░░░░░░░░░░░░░░` 1.8%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/leanpub-md.js         | `░░░░░░░░░░░░░░░░░░░░` 1.7%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)                          | `░░░░░░░░░░░░░░░░░░░░` 0.2%                       |
 | dist/md-DQ4L1VUm.js                                                                  | 2.3 kB · gzip 1.2 kB                              |
 | &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/md.js                 | `░░░░░░░░░░░░░░░░░░░░` 1.4%                       |
@@ -353,7 +358,7 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/js.js                 | `░░░░░░░░░░░░░░░░░░░░` 1.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)                          | `░░░░░░░░░░░░░░░░░░░░` 0.2%                       |
 | dist/github-dark-CTHfNL12.js → (bundler output, whitespace & JSON)                   | 1.7 kB · gzip 782 B · `░░░░░░░░░░░░░░░░░░░░` 1.2% |
-| dist/github-light-OLdb5Tfn.js → (bundler output, whitespace & JSON)                  | 1.7 kB · gzip 762 B · `░░░░░░░░░░░░░░░░░░░░` 1.2% |
+| dist/github-light-OLdb5Tfn.js → (bundler output, whitespace & JSON)                  | 1.7 kB · gzip 762 B · `░░░░░░░░░░░░░░░░░░░░` 1.1% |
 | dist/languages-CUONw0-I.js                                                           | 1.5 kB · gzip 689 B                               |
 | dist/xml-CItgL9jR.js                                                                 | 1.2 kB · gzip 655 B                               |
 | &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/xml.js                | `░░░░░░░░░░░░░░░░░░░░` 0.6%                       |
@@ -427,7 +432,7 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/regex.js              | `░░░░░░░░░░░░░░░░░░░░` 0.2%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)                          | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | dist/ini-BRzSgkFu.js                                                                 | 358 B · gzip 236 B                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/ini.js                | `░░░░░░░░░░░░░░░░░░░░` 0.2%                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/ini.js                | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)                          | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
 | dist/json-B1YjY9ed.js                                                                | 341 B · gzip 251 B                                |
 | &nbsp;&nbsp;&nbsp;&nbsp;@speed-highlight/core → dist/languages/json.js               | `░░░░░░░░░░░░░░░░░░░░` 0.1%                       |
@@ -457,35 +462,35 @@ This section is updated each time `npm run document` is run. Settings come from 
 
 ### Testing
 
-| Check                | Status | What it does                                                                                                        |
-| :------------------- | :----- | :------------------------------------------------------------------------------------------------------------------ |
-| Unit tests           | ❌ Off | [Vitest](https://vitest.dev) runs the unit tests.                                                                   |
-| Property-based tests | ❌ Off | [fast-check](https://fast-check.dev) runs many random inputs per test to find edge cases, alongside the unit tests. |
+| Check                | Status | What it does                                                                                                                                                                                                  |
+| :------------------- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Unit tests           | ✅ On  | [Vitest](https://vitest.dev) runs the unit tests. Part of the [CI workflow](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml) on every push and pull request to `main`. |
+| Property-based tests | ❌ Off | [fast-check](https://fast-check.dev) runs many random inputs per test to find edge cases, alongside the unit tests.                                                                                           |
 
 ### Code Quality
 
-| Check         | Status | What it does                                                                                                                                                                                                           |
-| :------------ | :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Code analysis | ❌ Off | [SonarCloud](https://sonarcloud.io) checks every push for bugs, code smells and vulnerabilities.                                                                                                                       |
-| Linting       | ✅ On  | [ESLint](https://eslint.org) checks the code for errors and style problems. Part of the [CI workflow](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml) on every push to `main`. |
+| Check         | Status | What it does                                                                                                                                                                                                                            |
+| :------------ | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Code analysis | ❌ Off | [SonarCloud](https://sonarcloud.io) checks every push for bugs, code smells and vulnerabilities.                                                                                                                                        |
+| Linting       | ✅ On  | [ESLint](https://eslint.org) checks the code for errors and style problems. Part of the [CI workflow](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml) on every push and pull request to `main`. |
 
 ### Security Analysis
 
-| Check           | Status | What it does                                                                                                                                                                                                                                                                                                                                                                                             |
-| :-------------- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Push protection | ✅ On  | [GitHub push protection](https://docs.github.com/en/code-security/secret-scanning/push-protection-for-repositories-and-organizations) blocks pushes that contain credentials.                                                                                                                                                                                                                            |
-| Static analysis | ✅ On  | [![CodeQL](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/codeql.yml/badge.svg)](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/security/code-scanning) [CodeQL](https://codeql.github.com) scans GitHub Actions and JavaScript/TypeScript for security vulnerabilities, using the default queries, on every push and pull request to `main` and weekly. |
-| Secret scanning | ✅ On  | [GitHub secret scanning](https://docs.github.com/en/code-security/secret-scanning) detects credentials, such as API keys and tokens, committed to the repository.                                                                                                                                                                                                                                        |
+| Check           | Status | What it does                                                                                                                                                                                                                                                                                                                                                                                                       |
+| :-------------- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Push protection | ✅ On  | [GitHub push protection](https://docs.github.com/en/code-security/secret-scanning/push-protection-for-repositories-and-organizations) blocks pushes that contain credentials.                                                                                                                                                                                                                                      |
+| Static analysis | ✅ On  | [![CodeQL](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/codeql.yml/badge.svg)](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/security/code-scanning) [CodeQL](https://codeql.github.com) scans GitHub Actions and JavaScript/TypeScript for security vulnerabilities, using the extended security queries, on every push and pull request to `main` and weekly. |
+| Secret scanning | ✅ On  | [GitHub secret scanning](https://docs.github.com/en/code-security/secret-scanning) detects credentials, such as API keys and tokens, committed to the repository.                                                                                                                                                                                                                                                  |
 
 ### Dependencies
 
-| Check               | Status | What it does                                                                                                                                                                                                                                               |
-| :------------------ | :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vulnerability audit | ✅ On  | [npm audit](https://docs.npmjs.com/cli/commands/npm-audit) fails when any dependency has a known vulnerability. Part of the [CI workflow](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml) on every push to `main`. |
-| Supply chain risk   | ✅ On  | [Socket](https://socket.dev) flags malicious packages, typosquatting and suspicious behaviour that may not yet have a CVE.                                                                                                                                 |
-| Security alerts     | ✅ On  | [Dependabot](https://docs.github.com/en/code-security/dependabot) alerts when a dependency has a known vulnerability, using the GitHub Advisory Database.                                                                                                  |
-| Security updates    | ❌ Off | [Dependabot](https://docs.github.com/en/code-security/dependabot) opens pull requests that update vulnerable dependencies. These are handled manually.                                                                                                     |
-| Version updates     | ❌ Off | [Dependabot](https://docs.github.com/en/code-security/dependabot) opens pull requests for new dependency versions. These are handled manually.                                                                                                             |
+| Check               | Status | What it does                                                                                                                                                                                                                                                                                                                                |
+| :------------------ | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Vulnerability audit | ✅ On  | [npm audit](https://docs.npmjs.com/cli/commands/npm-audit) fails when a shipped dependency has any known vulnerability, or a development dependency has a high or critical one. Part of the [CI workflow](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml) on every push and pull request to `main`. |
+| Supply chain risk   | ✅ On  | [Socket](https://socket.dev) flags malicious packages, typosquatting and suspicious behaviour that may not yet have a CVE.                                                                                                                                                                                                                  |
+| Security alerts     | ✅ On  | [Dependabot](https://docs.github.com/en/code-security/dependabot) alerts when a dependency has a known vulnerability, using the GitHub Advisory Database.                                                                                                                                                                                   |
+| Security updates    | ❌ Off | [Dependabot](https://docs.github.com/en/code-security/dependabot) opens pull requests that update vulnerable dependencies. These are handled manually.                                                                                                                                                                                      |
+| Version updates     | ❌ Off | [Dependabot](https://docs.github.com/en/code-security/dependabot) opens pull requests for new dependency versions. These are handled manually.                                                                                                                                                                                              |
 
 ### OpenSSF 🚧
 

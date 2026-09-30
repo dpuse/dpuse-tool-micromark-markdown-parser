@@ -216,6 +216,14 @@
         "path": "node_modules/micromark-util-decode-numeric-character-reference",
         "licenseFile": "downloads/micromark-util-decode-numeric-character-reference@2.0.2-LICENSE.txt"
     },
+    "micromark-util-edit-map@1.0.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/micromark/micromark.git#main",
+        "publisher": "Titus Wormer",
+        "email": "tituswormer@gmail.com",
+        "path": "node_modules/micromark-util-edit-map",
+        "licenseFile": "downloads/micromark-util-edit-map@1.0.0-LICENSE.txt"
+    },
     "micromark-util-encode@2.0.1": {
         "licenses": "MIT",
         "repository": "https://github.com/micromark/micromark.git#main",
@@ -280,13 +288,13 @@
         "path": "node_modules/micromark-util-types",
         "licenseFile": "downloads/micromark-util-types@2.0.2-LICENSE.txt"
     },
-    "micromark@4.0.2": {
+    "micromark@4.0.3": {
         "licenses": "MIT",
         "repository": "https://github.com/micromark/micromark.git#main",
         "publisher": "Titus Wormer",
         "email": "tituswormer@gmail.com",
         "path": "node_modules/micromark",
-        "licenseFile": "downloads/micromark@4.0.2-LICENSE.txt"
+        "licenseFile": "downloads/micromark@4.0.3-LICENSE.txt"
     },
     "ms@2.1.3": {
         "licenses": "MIT",

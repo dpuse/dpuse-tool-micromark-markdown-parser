@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.14.0",
-    "generatedAt": "2026-09-29T14:39:51.334Z",
+    "generatedAt": "2026-09-30T08:18:08.026Z",
     "integration": "vite",
     "sources": false,
     "gzip": true,
@@ -22,7 +22,7 @@
       "type": "other",
       "format": "other",
       "uncompressed": 8791,
-      "gzip": 807,
+      "gzip": 806,
       "brotli": 0,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
@@ -512,8 +512,8 @@
       "kind": "asset",
       "name": "dist/dpuse-tool-micromark-markdown-parser.es.js",
       "type": "script",
-      "uncompressed": 76947,
-      "gzip": 19243,
+      "uncompressed": 76909,
+      "gzip": 19222,
       "brotli": 0
     },
     {
@@ -1637,7 +1637,7 @@
       "type": "script",
       "format": "esm",
       "uncompressed": 2703,
-      "gzip": 560,
+      "gzip": 559,
       "brotli": 0,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
@@ -1705,7 +1705,7 @@
       "type": "script",
       "format": "esm",
       "uncompressed": 1287,
-      "gzip": 342,
+      "gzip": 341,
       "brotli": 0,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
@@ -2127,7 +2127,7 @@
       "type": "script",
       "format": "esm",
       "uncompressed": 1128,
-      "gzip": 282,
+      "gzip": 281,
       "brotli": 0,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
@@ -2450,7 +2450,7 @@
       "type": "script",
       "format": "esm",
       "uncompressed": 8199,
-      "gzip": 1782,
+      "gzip": 1781,
       "brotli": 0,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
@@ -2653,15 +2653,15 @@
       "name": "src/index.ts",
       "type": "script",
       "format": "esm",
-      "uncompressed": 5742
+      "uncompressed": 5700
     },
     {
       "kind": "chunk",
       "name": "src/index.ts",
       "type": "script",
       "format": "esm",
-      "uncompressed": 3830,
-      "gzip": 1099,
+      "uncompressed": 3792,
+      "gzip": 1082,
       "brotli": 0,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     }
