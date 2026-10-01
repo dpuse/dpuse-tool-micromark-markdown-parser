@@ -31,21 +31,18 @@ Consider TanStack Highlight library for replacing @speed-highlight at some futur
 
 <!-- OPENING_END -->
 
+## Features
+
+- 🚀 **Fast Markdown Parsing**: with Micromark
+- 💡 **Efficient Syntax Highlighting**: via Speed Highlight
+- 🧠 **Memory-Optimised**: shared instance across all presenters
+- 📦 **Modular Loading**: optional modules loaded on demand
+- ☁️ **Cloud-Managed**: automatically updates new instances and notifies running instances of available updates
+- 🧑‍💻 **Implemented in TypeScript**: fully coded in TypeScript
+
 ## Installation
 
 There's no need to install this library manually. Once released, it is uploaded to the Data Positioning Cloud and instantly available in all newly launched browser app instances. Running instances are notified of the update.
-
-### For Developers
-
-If you wish to fork or create your own copy of the library:
-
-```bash
-git clone https://github.com/dpuse/dpuse-tool-micromark.git
-cd dpuse-tool-micromark
-npm install
-```
-
-## Dependency Licenses
 
 <!-- USAGE_START -->
 

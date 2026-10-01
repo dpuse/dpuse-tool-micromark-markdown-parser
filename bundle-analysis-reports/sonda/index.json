@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.14.0",
-    "generatedAt": "2026-09-30T11:16:28.922Z",
+    "generatedAt": "2026-10-01T09:30:18.374Z",
     "integration": "vite",
     "sources": false,
     "gzip": true,
@@ -21,8 +21,8 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 8791,
-      "gzip": 806,
+      "uncompressed": 8782,
+      "gzip": 804,
       "brotli": 0,
       "parent": "dist/dpuse-tool-micromark-markdown-parser.es.js"
     },
@@ -512,8 +512,8 @@
       "kind": "asset",
       "name": "dist/dpuse-tool-micromark-markdown-parser.es.js",
       "type": "script",
-      "uncompressed": 76909,
-      "gzip": 19222,
+      "uncompressed": 76900,
+      "gzip": 19219,
       "brotli": 0
     },
     {
@@ -2653,7 +2653,7 @@
       "name": "src/index.ts",
       "type": "script",
       "format": "esm",
-      "uncompressed": 5700
+      "uncompressed": 5691
     },
     {
       "kind": "chunk",
