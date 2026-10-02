@@ -56,7 +56,7 @@
         "document": "node -e \"import('@dpuse/dpuse-development').then(m => m.documentProject('CC0-1.0;MIT'))\"",
         "format": "node -e \"import('@dpuse/dpuse-development').then(m => m.formatCode())\"",
         "lint": "node -e \"import('@dpuse/dpuse-development').then(m => m.lintCode())\"",
-        "release": "npm run build && npm run document && npm run sync && gh release create \"v$(npm pkg get version | tr -d '\"')\" --target \"$(git rev-parse HEAD)\" --generate-notes --latest",
+        "release": "npm run build && npm run document && npm run sync && node -e \"import('@dpuse/dpuse-development').then(m => m.triggerGitHubRelease())\"",
         "sync": "node -e \"import('@dpuse/dpuse-development').then(m => m.syncProjectWithGitHub())\"",
         "test": "node -e \"import('@dpuse/dpuse-development').then(m => m.testProject())\""
     },
@@ -67,7 +67,7 @@
         "micromark-extension-gfm-table": "^2.1.2"
     },
     "devDependencies": {
-        "@dpuse/dpuse-development": "^0.3.802",
+        "@dpuse/dpuse-development": "^0.3.816",
         "@dpuse/eslint-config-dpuse": "^1.0.124",
         "@types/node": "^26.6.3",
         "eslint": "^10.11.0",
