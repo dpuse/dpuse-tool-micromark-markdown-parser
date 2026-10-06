@@ -3,7 +3,7 @@
 <!-- OPENING_START -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![DPUse version](https://img.shields.io/github/v/release/dpuse/dpuse-tool-micromark-markdown-parser?color=f6821f&label=DPUse)](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/releases/latest)
+[![DPUse version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.dpuse.app%2Fconfigs%2Fdpuse-tool-micromark-markdown-parser&query=%24.data.version&prefix=v&label=DPUse&color=f6821f)](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/releases/latest)
 [![npm version](https://img.shields.io/npm/v/@dpuse/dpuse-tool-micromark-markdown-parser?color=cb3837&label=npm)](https://www.npmjs.com/package/@dpuse/dpuse-tool-micromark-markdown-parser)
 [![CI](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/dpuse/dpuse-tool-micromark-markdown-parser/actions/workflows/ci.yml)
 
@@ -109,62 +109,62 @@ License data is updated each time `npm run document` is run, using [license-chec
 
 The dependency tree below shows how each package in the table above is reached — direct and transitive — along with its installed version, release date, and update status. A package that does not ship itself, such as one whose parts are bundled separately, is left out and what ships beneath it is shown in its place. Packages flagged ❗ have a newer version available; ⚠️ indicates a package that hasn't been updated in the last 6 months or longer. Neither flag necessarily indicates a problem: we let new releases stabilise before upgrading, and some packages are mature and stable (have limited or no dependencies), so they require no active development.
 
-- **[@speed-highlight/core](https://github.com/speed-highlight/core)** 2.1.0 — **1 month** ago: 2026-08-25
-- **[micromark-extension-directive](https://github.com/micromark/micromark-extension-directive)** 4.0.0 — **19 months** ago: 2025-02-27 ⚠️
-    - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️ → **latest**: 2.1.0 — this month: 2026-09-26 ❗
-        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-factory-whitespace](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️ → **latest**: 2.1.0 — this month: 2026-09-26 ❗
-        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[parse-entities](https://github.com/wooorm/parse-entities)** 4.0.2 — **21 months** ago: 2024-12-13 ⚠️
-        - **[character-entities-legacy](https://github.com/wooorm/character-entities-legacy)** 3.0.0 — **59 months** ago: 2021-10-29 ⚠️
-        - **[character-reference-invalid](https://github.com/wooorm/character-reference-invalid)** 2.0.1 — **59 months** ago: 2021-10-27 ⚠️
-        - **[decode-named-character-reference](https://github.com/wooorm/decode-named-character-reference)** 1.2.0 — **15 months** ago: 2025-06-14 ⚠️ → **latest**: 1.3.0 — **8 months** ago: 2026-01-19 ⚠️ ❗
-        - **[is-alphanumerical](https://github.com/wooorm/is-alphanumerical)** 2.0.1 — **58 months** ago: 2021-11-04 ⚠️
-            - **[is-alphabetical](https://github.com/wooorm/is-alphabetical)** 2.0.1 — **58 months** ago: 2021-11-04 ⚠️
-            - **[is-decimal](https://github.com/wooorm/is-decimal)** 2.0.1 — **58 months** ago: 2021-11-04 ⚠️
-        - **[is-decimal](https://github.com/wooorm/is-decimal)** 2.0.1 — **58 months** ago: 2021-11-04 ⚠️
-        - **[is-hexadecimal](https://github.com/wooorm/is-hexadecimal)** 2.0.1 — **58 months** ago: 2021-11-04 ⚠️
+- **[@speed-highlight/core](https://github.com/speed-highlight/core)** 2.1.0 — 1 mth ago: 2026-08-25
+- **[micromark-extension-directive](https://github.com/micromark/micromark-extension-directive)** 4.0.0 — 19 mths ago: 2025-02-27 ⚠️
+    - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️ → latest: 2.1.0 — this month: 2026-09-26 ❗
+        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-factory-whitespace](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️ → latest: 2.1.0 — this month: 2026-09-26 ❗
+        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[parse-entities](https://github.com/wooorm/parse-entities)** 4.0.2 — 21 mths ago: 2024-12-13 ⚠️
+        - **[character-entities-legacy](https://github.com/wooorm/character-entities-legacy)** 3.0.0 — 59 mths ago: 2021-10-29 ⚠️
+        - **[character-reference-invalid](https://github.com/wooorm/character-reference-invalid)** 2.0.1 — 59 mths ago: 2021-10-27 ⚠️
+        - **[decode-named-character-reference](https://github.com/wooorm/decode-named-character-reference)** 1.2.0 — 15 mths ago: 2025-06-14 ⚠️ → latest: 1.3.0 — 8 mths ago: 2026-01-19 ⚠️ ❗
+        - **[is-alphanumerical](https://github.com/wooorm/is-alphanumerical)** 2.0.1 — 59 mths ago: 2021-11-04 ⚠️
+            - **[is-alphabetical](https://github.com/wooorm/is-alphabetical)** 2.0.1 — 59 mths ago: 2021-11-04 ⚠️
+            - **[is-decimal](https://github.com/wooorm/is-decimal)** 2.0.1 — 59 mths ago: 2021-11-04 ⚠️
+        - **[is-decimal](https://github.com/wooorm/is-decimal)** 2.0.1 — 59 mths ago: 2021-11-04 ⚠️
+        - **[is-hexadecimal](https://github.com/wooorm/is-hexadecimal)** 2.0.1 — 59 mths ago: 2021-11-04 ⚠️
 - **[micromark-extension-gfm-table](https://github.com/micromark/micromark-extension-gfm-table)** 2.1.2 — this month: 2026-09-11
-    - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️ → **latest**: 2.1.0 — this month: 2026-09-26 ❗
-    - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
+    - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️ → latest: 2.1.0 — this month: 2026-09-26 ❗
+    - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
 - **[micromark](https://github.com/micromark/micromark.git#main)** 4.0.3 — this month: 2026-09-26
-    - **[decode-named-character-reference](https://github.com/wooorm/decode-named-character-reference)** 1.2.0 — **15 months** ago: 2025-06-14 ⚠️ → **latest**: 1.3.0 — **8 months** ago: 2026-01-19 ⚠️ ❗
-    - **[micromark-core-commonmark](https://github.com/micromark/micromark.git#main)** 2.0.3 — **19 months** ago: 2025-02-27 ⚠️ → **latest**: 2.0.4 — this month: 2026-09-26 ❗
-        - **[decode-named-character-reference](https://github.com/wooorm/decode-named-character-reference)** 1.2.0 — **15 months** ago: 2025-06-14 ⚠️ → **latest**: 1.3.0 — **8 months** ago: 2026-01-19 ⚠️ ❗
-        - **[micromark-factory-destination](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-factory-label](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️ → **latest**: 2.1.0 — this month: 2026-09-26 ❗
-        - **[micromark-factory-title](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-            - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️ → **latest**: 2.1.0 — this month: 2026-09-26 ❗
-            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-factory-whitespace](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-classify-character](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-html-tag-name](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-normalize-identifier](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-resolve-all](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-subtokenize](https://github.com/micromark/micromark.git#main)** 2.1.0 — **19 months** ago: 2025-02-27 ⚠️
-    - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️ → **latest**: 2.1.0 — this month: 2026-09-26 ❗
-    - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-combine-extensions](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-decode-numeric-character-reference](https://github.com/micromark/micromark.git#main)** 2.0.2 — **22 months** ago: 2024-11-12 ⚠️
+    - **[decode-named-character-reference](https://github.com/wooorm/decode-named-character-reference)** 1.2.0 — 15 mths ago: 2025-06-14 ⚠️ → latest: 1.3.0 — 8 mths ago: 2026-01-19 ⚠️ ❗
+    - **[micromark-core-commonmark](https://github.com/micromark/micromark.git#main)** 2.0.3 — 19 mths ago: 2025-02-27 ⚠️ → latest: 2.0.4 — this month: 2026-09-26 ❗
+        - **[decode-named-character-reference](https://github.com/wooorm/decode-named-character-reference)** 1.2.0 — 15 mths ago: 2025-06-14 ⚠️ → latest: 1.3.0 — 8 mths ago: 2026-01-19 ⚠️ ❗
+        - **[micromark-factory-destination](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-factory-label](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️ → latest: 2.1.0 — this month: 2026-09-26 ❗
+        - **[micromark-factory-title](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+            - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️ → latest: 2.1.0 — this month: 2026-09-26 ❗
+            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-factory-whitespace](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-classify-character](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+            - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-html-tag-name](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-normalize-identifier](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-resolve-all](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-subtokenize](https://github.com/micromark/micromark.git#main)** 2.1.0 — 19 mths ago: 2025-02-27 ⚠️
+    - **[micromark-factory-space](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️ → latest: 2.1.0 — this month: 2026-09-26 ❗
+    - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-combine-extensions](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-decode-numeric-character-reference](https://github.com/micromark/micromark.git#main)** 2.0.2 — 22 mths ago: 2024-11-12 ⚠️
     - **[micromark-util-edit-map](https://github.com/micromark/micromark.git#main)** 1.0.0 — this month: 2026-09-26
-    - **[micromark-util-encode](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-normalize-identifier](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-resolve-all](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-sanitize-uri](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — **22 months** ago: 2024-11-12 ⚠️
-        - **[micromark-util-encode](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
-    - **[micromark-util-subtokenize](https://github.com/micromark/micromark.git#main)** 2.1.0 — **19 months** ago: 2025-02-27 ⚠️
-        - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — **22 months** ago: 2024-11-12 ⚠️
+    - **[micromark-util-encode](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-normalize-identifier](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-resolve-all](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-sanitize-uri](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-character](https://github.com/micromark/micromark.git#main)** 2.1.1 — 22 mths ago: 2024-11-12 ⚠️
+        - **[micromark-util-encode](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
+    - **[micromark-util-subtokenize](https://github.com/micromark/micromark.git#main)** 2.1.0 — 19 mths ago: 2025-02-27 ⚠️
+        - **[micromark-util-chunked](https://github.com/micromark/micromark.git#main)** 2.0.1 — 22 mths ago: 2024-11-12 ⚠️
 
 <!-- DEPENDENCY_LICENSES_END -->
 
